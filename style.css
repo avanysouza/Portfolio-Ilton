@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #FFFFFF;
+}
+
+.cabecalho{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #173A06;
+    position: absolute;
+    width: 90%;
+    height: 70px;
+    left: 85px;
+    top: 0px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.cabecalho_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
+}
+
+.cabecalho_menu_item{
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 40px;
+}
+
+.cabecalho_menu_logos{
+   display: flex;
+   gap: 40px;
+}
+
+.cabecalho_menu_logos_linkedin{
+    height: 30px;
+    filter: invert(0.8);
+}
+
+.cabecalho_menu_logos_instagram{
+    height: 30px;
+    filter: invert(0.8);
+}
+
+.cabecalho_menu_logos_whatsapp{
+    height: 30px;
+    filter: invert(0.8);
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px;
+}
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.conteudo_principal_escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;   
+}
+
+.conteudo_principal_escrito_titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #173A06;
+    gap: 32px;   
+
+}
+
+.conteudo_principal_escrito_apresentacao{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    width: 500px;
+    height: 63px;
+    justify-content: center;
+    gap: 32px;   
+
+}
+
+.conteudo_principal_escrito_botao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 21px 64px;
+    gap: 10px;
+
+    width: 200px;
+    height: 63px;
+
+    background: #326608;
+    border: 1px solid #62BA1B;
+    box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: #FFFFFF;
+    gap: 32px;   
+}
+
+.conteudo_principal_imagem{
+    height: 430px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #064619;
+}
+
+.rodape_titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: #173A06;
+    display: flex;
+    align-items:flex-end;
+    justify-content: end;
+    gap: 32px;   
+}
